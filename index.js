@@ -1,22 +1,31 @@
 
     // start with strings, numbers and booleans
-    let age = 100;
-    let age2 = age;
-    console.log(age, age2);
-    age = 200;
-    console.log(age,age2);
-    //returns 200 100
+    // let age = 100;
+    // let age2 = age;
+    // console.log(age, age2);
+    // age = 200;
+    // console.log(age,age2);
+    // //returns 200 100
 
-    let name = 'Em';
-    let name2 = name;
-    console.log(name, name2);
-    name = 'Emily';
-    console.log(name, name2);
+    // let name = 'Em';
+    // let name2 = name;
+    // // prints Em Em
+    // console.log(name, name2);
+
+    // name = 'Emily';
+    // // prints Emily Em
+    // console.log(name, name2);
 
     // Let's say we have an array
-    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+        const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
     // and we want to make a copy of it.
+        // const team = players;
+        // console.log(team, players);
+        team[3] = 'Lux';
+        // index 3 of team is Lux
+        // index 3 of players is also Lux;
+        // important note because this means that team actually is players and changes it.
 
     // You might think we can just do something like this:
 
